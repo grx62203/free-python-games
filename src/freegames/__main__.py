@@ -1,8 +1,9 @@
 """Free Games CLI
 """
 
-import argparse
-import os
+# 导入Python标准库模块
+import argparse  # 用于解析命令行参数
+import os        # 提供与操作系统交互的功能
 import runpy
 
 
