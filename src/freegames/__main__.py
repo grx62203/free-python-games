@@ -15,7 +15,6 @@ def game_file(name):
         and name != 'utils.py'
     )
 
-
 def main():
     directory = os.path.dirname(os.path.realpath(__file__))
     contents = os.listdir(directory)
